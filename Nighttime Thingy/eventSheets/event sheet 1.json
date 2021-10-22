@@ -1,0 +1,28 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "shootingStar",
+					"sid": 465358655262775
+				}
+			],
+			"actions": [
+				{
+					"id": "move-at-angle",
+					"objectClass": "shootingStar",
+					"sid": 893637686564900,
+					"parameters": {
+						"angle": "225",
+						"distance": "1030"
+					}
+				}
+			],
+			"sid": 544549937107159
+		}
+	],
+	"sid": 465483927129170
+}
