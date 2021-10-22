@@ -480,10 +480,22 @@
 					},
 					"uid": 18,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"MoveTo": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": false,
+								"enabled": true
+							}
+						}
+					},
 					"world": {
-						"x": 1137,
-						"y": -168,
+						"x": 1259,
+						"y": -450,
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,

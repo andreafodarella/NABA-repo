@@ -13,6 +13,14 @@
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
 		}
 	],
 	"uniqueId": "6md8j0gel6d",

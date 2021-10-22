@@ -5,23 +5,67 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-created",
-					"objectClass": "shootingStar",
-					"sid": 465358655262775
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 943919182891286
 				}
 			],
 			"actions": [
 				{
-					"id": "move-at-angle",
+					"id": "move-to-position",
 					"objectClass": "shootingStar",
-					"sid": 893637686564900,
+					"sid": 533882180261006,
+					"behaviorType": "MoveTo",
 					"parameters": {
-						"angle": "225",
-						"distance": "1030"
+						"x": "300",
+						"y": "1030",
+						"mode": "direct"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "shootingStar",
+					"sid": 698224396751162,
+					"parameters": {
+						"angle": "0"
 					}
 				}
 			],
 			"sid": 544549937107159
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-arrived",
+					"objectClass": "shootingStar",
+					"sid": 666242310457580,
+					"behaviorType": "MoveTo"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "shootingStar",
+					"sid": 758240360546938,
+					"parameters": {
+						"x": "1250",
+						"y": "-450"
+					}
+				},
+				{
+					"id": "move-to-position",
+					"objectClass": "shootingStar",
+					"sid": 331978872986104,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "300",
+						"y": "1030",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 177577781361210
 		}
 	],
 	"sid": 465483927129170

@@ -4,7 +4,13 @@
 	"sid": 482277716570760,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 110914431693945
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -37,11 +43,11 @@
 				],
 				"sid": 386660444761055,
 				"name": "Animation 1",
-				"isLooping": false,
+				"isLooping": true,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 5
+				"speed": 10
 			}
 		],
 		"subfolders": []
