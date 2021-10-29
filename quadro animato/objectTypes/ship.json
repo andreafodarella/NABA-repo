@@ -1,0 +1,63 @@
+{
+	"name": "ship",
+	"plugin-id": "Sprite",
+	"sid": 465979730283640,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "MoveTo",
+			"name": "MuoviVerso",
+			"sid": 519365629831824
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 822,
+						"height": 645,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1326132,
+						"collisionPoly": {
+							"points": [
+								0.23357664233576642,
+								0.29767441860465116,
+								0.5,
+								0.15658914728682172,
+								0.9343065693430657,
+								0.08217054263565891,
+								0.7335766423357665,
+								0.5,
+								0.6642335766423357,
+								0.5720930232558139,
+								0.5,
+								0.724031007751938,
+								0.24087591240875914,
+								0.6914728682170542,
+								0.09975669099756691,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 879968937875288,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

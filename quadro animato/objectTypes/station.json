@@ -1,0 +1,191 @@
+{
+	"name": "station",
+	"plugin-id": "Sprite",
+	"sid": 803662387007581,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Seno",
+			"sid": 933152049867834
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 727,
+						"height": 548,
+						"originX": 0.49931224209078406,
+						"originY": 0.5748175182481752,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5482684,
+						"collisionPoly": {
+							"points": [
+								0.3603851444291609,
+								0.4781021897810219,
+								0.5055020632737276,
+								0,
+								0.6382393397524071,
+								0.4781021897810219,
+								0.859697386519945,
+								0.5,
+								0.7276478679504814,
+								0.6386861313868614,
+								0.5,
+								0.9963503649635036,
+								0.27097661623108665,
+								0.6386861313868614,
+								0.13892709766162312,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 10
+					},
+					{
+						"width": 727,
+						"height": 548,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7085631,
+						"collisionPoly": {
+							"points": [
+								0.3603851444291609,
+								0.4781021897810219,
+								0.5,
+								0,
+								0.6382393397524071,
+								0.4781021897810219,
+								0.859697386519945,
+								0.5,
+								0.7276478679504814,
+								0.6386861313868614,
+								0.5,
+								0.9963503649635036,
+								0.27097661623108665,
+								0.6386861313868614,
+								0.13892709766162312,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 727,
+						"height": 548,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8324568,
+						"collisionPoly": {
+							"points": [
+								0.3603851444291609,
+								0.4781021897810219,
+								0.5,
+								0,
+								0.6382393397524071,
+								0.4781021897810219,
+								0.859697386519945,
+								0.5,
+								0.7276478679504814,
+								0.6386861313868614,
+								0.5,
+								0.9963503649635036,
+								0.27097661623108665,
+								0.6386861313868614,
+								0.13892709766162312,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 727,
+						"height": 548,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4304747,
+						"collisionPoly": {
+							"points": [
+								0.3603851444291609,
+								0.4781021897810219,
+								0.5,
+								0,
+								0.6382393397524071,
+								0.4781021897810219,
+								0.859697386519945,
+								0.5,
+								0.7276478679504814,
+								0.6386861313868614,
+								0.5,
+								0.9963503649635036,
+								0.27097661623108665,
+								0.6386861313868614,
+								0.13892709766162312,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 727,
+						"height": 548,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6599933,
+						"collisionPoly": {
+							"points": [
+								0.3603851444291609,
+								0.4781021897810219,
+								0.5,
+								0,
+								0.6382393397524071,
+								0.4781021897810219,
+								0.859697386519945,
+								0.5,
+								0.7276478679504814,
+								0.6386861313868614,
+								0.5,
+								0.9963503649635036,
+								0.27097661623108665,
+								0.6386861313868614,
+								0.13892709766162312,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 634727860457735,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
