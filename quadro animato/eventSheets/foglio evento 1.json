@@ -58,25 +58,18 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 732410336664987,
+					"sid": 997574790001879,
 					"parameters": {
-						"seconds": "40"
+						"seconds": "1"
 					}
 				},
 				{
-					"id": "set-x",
+					"id": "set-position-to-another-object",
 					"objectClass": "ship",
-					"sid": 183545272766676,
+					"sid": 459814908186014,
 					"parameters": {
-						"x": "-27"
-					}
-				},
-				{
-					"id": "set-y",
-					"objectClass": "ship",
-					"sid": 968345873737028,
-					"parameters": {
-						"y": "51"
+						"object": "startship1",
+						"image-point-optional": "0"
 					}
 				}
 			],
@@ -141,25 +134,18 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 910426706323002,
+					"sid": 602852998987770,
 					"parameters": {
-						"seconds": "60"
+						"seconds": "1"
 					}
 				},
 				{
-					"id": "set-x",
+					"id": "set-position-to-another-object",
 					"objectClass": "ship2",
-					"sid": 290663816064640,
+					"sid": 741061432703623,
 					"parameters": {
-						"x": "-27"
-					}
-				},
-				{
-					"id": "set-y",
-					"objectClass": "ship2",
-					"sid": 511655893786854,
-					"parameters": {
-						"y": "51"
+						"object": "startship2",
+						"image-point-optional": "0"
 					}
 				}
 			],
