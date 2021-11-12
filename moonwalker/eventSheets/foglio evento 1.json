@@ -1,0 +1,377 @@
+{
+	"name": "Foglio evento 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 972263997431623
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-animation",
+					"objectClass": "poof",
+					"sid": 107590190858176
+				}
+			],
+			"sid": 998658655817157
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Tastiera",
+					"sid": 652846016339678,
+					"parameters": {
+						"key": 66
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "moonwlkr",
+					"sid": 786343710475971,
+					"parameters": {
+						"x": "56",
+						"y": "440"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "BAdvisor",
+					"sid": 883290085217432,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "victory",
+					"sid": 336146385262105,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "V",
+					"sid": 449764823903957,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "I",
+					"sid": 409201150253732,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "C",
+					"sid": 683118015010579,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "T",
+					"sid": 613505779174948,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "O",
+					"sid": 324455076843938,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "R",
+					"sid": 511731425152391,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Y",
+					"sid": 179779754870085,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "terreno",
+					"sid": 437520470120487,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "terreno",
+					"sid": 853708929498768,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "start-animation",
+					"objectClass": "poof",
+					"sid": 836625810006561,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 482955744380532
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "moonwlkr",
+					"sid": 979740385204037,
+					"behaviorType": "Piattaforme"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "moonwlkr",
+					"sid": 138971907194628,
+					"parameters": {
+						"animation": "\"run\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 788378943705202
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Tastiera",
+					"sid": 391078120537764,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "moonwlkr",
+					"sid": 377759549600870,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 833198996321576
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Tastiera",
+					"sid": 513741124578025,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "moonwlkr",
+					"sid": 434071295694909,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 822186159555553
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "moonwlkr",
+					"sid": 452631901776250,
+					"behaviorType": "Piattaforme",
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "moonwlkr",
+					"sid": 292099650212711,
+					"parameters": {
+						"animation": "\"idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 469700143936399
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "end",
+					"sid": 999048411370757,
+					"parameters": {
+						"object": "moonwlkr"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "victory",
+					"sid": 861044499530870,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "V",
+					"sid": 697942011004805,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "I",
+					"sid": 781745162882888,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "C",
+					"sid": 429303847292154,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "T",
+					"sid": 291818087713639,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "O",
+					"sid": 844380832318850,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "R",
+					"sid": 864432017164684,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Y",
+					"sid": 989456662581199,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "terreno",
+					"sid": 134861796495494,
+					"behaviorType": "Solido",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "terreno",
+					"sid": 713956169370866,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 124056978554589
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "moonwlkr",
+					"sid": 904323235831286,
+					"parameters": {
+						"object": "rspwnAdvicer"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "typewriter-text",
+					"objectClass": "BAdvisor",
+					"sid": 439781730717270,
+					"parameters": {
+						"text": "\"PREMI B PER TORNARE ALLA PARTENZA\"",
+						"duration": "1.5"
+					}
+				}
+			],
+			"sid": 502503889641821
+		}
+	],
+	"sid": 648506944425211
+}

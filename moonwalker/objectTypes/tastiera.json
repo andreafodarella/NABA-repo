@@ -1,0 +1,10 @@
+{
+	"name": "Tastiera",
+	"plugin-id": "Keyboard",
+	"sid": 129561075610020,
+	"singleglobal-inst": {
+		"type": "Tastiera",
+		"properties": {},
+		"uid": 19
+	}
+}

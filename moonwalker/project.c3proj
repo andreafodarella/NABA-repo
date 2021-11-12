@@ -1,0 +1,238 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 26800,
+	"name": "moonwalker",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Tastiera",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Testo",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solido",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Piattaforme",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		}
+	],
+	"uniqueId": "mopmt1tnv1e",
+	"objectTypes": {
+		"items": [
+			"terreno",
+			"moonwlkr",
+			"Tastiera",
+			"V",
+			"I",
+			"C",
+			"T",
+			"O",
+			"R",
+			"Y",
+			"end",
+			"terreno2",
+			"rspwnAdvicer",
+			"BAdvisor",
+			"poof"
+		],
+		"subfolders": []
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [
+			"victory"
+		],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Layout 1"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Foglio evento 1"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "Icona-16.png",
+					"type": "image/png",
+					"sid": 722317682885507,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Icona-64.png",
+					"type": "image/png",
+					"sid": 283884619664277,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Icona-256.png",
+					"type": "image/png",
+					"sid": 115151945119752,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Icona-128.png",
+					"type": "image/png",
+					"sid": 157635482317554,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Icona-512.png",
+					"type": "image/png",
+					"sid": 637200746254536,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Icona-32.png",
+					"type": "image/png",
+					"sid": 445067821136880,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Caricamento-logo.png",
+					"type": "image/png",
+					"sid": 750097918223653,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https"
+	},
+	"viewportWidth": 854,
+	"viewportHeight": 480,
+	"firstLayout": null
+}
