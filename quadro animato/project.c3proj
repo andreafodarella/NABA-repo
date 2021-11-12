@@ -17,7 +17,7 @@
 		{
 			"type": "behavior",
 			"id": "Sin",
-			"name": "Sine",
+			"name": "Seno",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -25,7 +25,7 @@
 		{
 			"type": "behavior",
 			"id": "MoveTo",
-			"name": "Move To",
+			"name": "Muovi verso",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -39,9 +39,9 @@
 			"stars",
 			"palnet",
 			"palnet2",
-			"startship1",
 			"ship2",
-			"startship2"
+			"startships",
+			"endoftheline"
 		],
 		"subfolders": []
 	},

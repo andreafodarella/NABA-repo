@@ -2,12 +2,35 @@
 	"name": "Foglio evento 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "P1",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 850433440868380
+		},
+		{
+			"eventType": "variable",
+			"name": "P2",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 564485468882386
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 698303865151474
+					"id": "on-collision-with-another-object",
+					"objectClass": "palnet",
+					"sid": 995114691298796,
+					"parameters": {
+						"object": "startships"
+					}
 				}
 			],
 			"actions": [
@@ -56,34 +79,112 @@
 					}
 				},
 				{
-					"id": "wait",
+					"id": "toggle-boolean-eventvar",
 					"objectClass": "System",
-					"sid": 997574790001879,
+					"sid": 497887757466287,
 					"parameters": {
-						"seconds": "1"
+						"variable": "P1"
 					}
 				},
 				{
-					"id": "set-position-to-another-object",
-					"objectClass": "ship",
-					"sid": 459814908186014,
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 114245727625314,
 					"parameters": {
-						"object": "startship1",
-						"image-point-optional": "0"
+						"seconds": "25"
 					}
 				}
 			],
-			"sid": 624525722311715
+			"sid": 624525722311715,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 712279477473120,
+							"parameters": {
+								"variable": "P1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle",
+							"objectClass": "ship",
+							"sid": 317321630557499,
+							"parameters": {
+								"angle": "70"
+							}
+						},
+						{
+							"id": "set-x",
+							"objectClass": "ship",
+							"sid": 718160510542285,
+							"parameters": {
+								"x": "-27"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "ship",
+							"sid": 209700703594473,
+							"parameters": {
+								"y": "51"
+							}
+						}
+					],
+					"sid": 249911716934984
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 409807294566255
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle",
+							"objectClass": "ship",
+							"sid": 685899182720893,
+							"parameters": {
+								"angle": "11"
+							}
+						},
+						{
+							"id": "set-x",
+							"objectClass": "ship",
+							"sid": 972416962380284,
+							"parameters": {
+								"x": "38"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "ship",
+							"sid": 614743154190818,
+							"parameters": {
+								"y": "518"
+							}
+						}
+					],
+					"sid": 854641816065169
+				}
+			]
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "startship1",
-					"sid": 419257262393987,
+					"objectClass": "ship",
+					"sid": 127449353385095,
 					"parameters": {
-						"object": "ship"
+						"object": "startships"
 					}
 				}
 			],
@@ -91,7 +192,7 @@
 				{
 					"id": "set-visible",
 					"objectClass": "ship",
-					"sid": 754508250124975,
+					"sid": 875655106774011,
 					"parameters": {
 						"visibility": "visible"
 					}
@@ -99,7 +200,7 @@
 				{
 					"id": "move-to-object",
 					"objectClass": "ship",
-					"sid": 366524359189480,
+					"sid": 460318290627871,
 					"behaviorType": "MuoviVerso",
 					"parameters": {
 						"object": "station",
@@ -108,7 +209,7 @@
 					}
 				}
 			],
-			"sid": 700053949094236
+			"sid": 248692073954693
 		},
 		{
 			"eventType": "block",
@@ -132,34 +233,112 @@
 					}
 				},
 				{
-					"id": "wait",
+					"id": "toggle-boolean-eventvar",
 					"objectClass": "System",
-					"sid": 602852998987770,
+					"sid": 530708651178984,
 					"parameters": {
-						"seconds": "1"
+						"variable": "P2"
 					}
 				},
 				{
-					"id": "set-position-to-another-object",
-					"objectClass": "ship2",
-					"sid": 741061432703623,
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 833090958336438,
 					"parameters": {
-						"object": "startship2",
-						"image-point-optional": "0"
+						"seconds": "15"
 					}
 				}
 			],
-			"sid": 540848650219335
+			"sid": 540848650219335,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 510654743031506,
+							"parameters": {
+								"variable": "P2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle",
+							"objectClass": "ship2",
+							"sid": 690766794443108,
+							"parameters": {
+								"angle": "45"
+							}
+						},
+						{
+							"id": "set-x",
+							"objectClass": "ship2",
+							"sid": 250703990343660,
+							"parameters": {
+								"x": "38"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "ship2",
+							"sid": 817579080836770,
+							"parameters": {
+								"y": "518"
+							}
+						}
+					],
+					"sid": 445930849292356
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 139535341716232
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle",
+							"objectClass": "ship2",
+							"sid": 734503685816138,
+							"parameters": {
+								"angle": "110"
+							}
+						},
+						{
+							"id": "set-x",
+							"objectClass": "ship2",
+							"sid": 241833627008006,
+							"parameters": {
+								"x": "-27"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "ship2",
+							"sid": 178319812575519,
+							"parameters": {
+								"y": "51"
+							}
+						}
+					],
+					"sid": 630298835903872
+				}
+			]
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "startship2",
-					"sid": 813236653918962,
+					"objectClass": "ship2",
+					"sid": 515932139919903,
 					"parameters": {
-						"object": "ship2"
+						"object": "startships"
 					}
 				}
 			],
@@ -185,6 +364,46 @@
 				}
 			],
 			"sid": 897711200505118
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "palnet",
+					"sid": 284824632812570,
+					"parameters": {
+						"object": "endoftheline"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 749222268313899,
+					"parameters": {
+						"seconds": "20"
+					}
+				},
+				{
+					"id": "set-x",
+					"objectClass": "palnet",
+					"sid": 550051420547167,
+					"parameters": {
+						"x": "-27"
+					}
+				},
+				{
+					"id": "set-y",
+					"objectClass": "palnet",
+					"sid": 860265971081929,
+					"parameters": {
+						"y": "63"
+					}
+				}
+			],
+			"sid": 514523627793748
 		}
 	],
 	"sid": 519446736459728

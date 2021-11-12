@@ -3080,36 +3080,7 @@
 					}
 				},
 				{
-					"type": "startship1",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 59,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 38,
-						"y": 518,
-						"width": 98,
-						"height": 108,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "startship2",
+					"type": "startships",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -3138,6 +3109,64 @@
 					}
 				},
 				{
+					"type": "startships",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 59,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 38,
+						"y": 518,
+						"width": 23,
+						"height": 24,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "endoftheline",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 62,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 925,
+						"y": 108,
+						"width": 15,
+						"height": 168,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "palnet",
 					"properties": {
 						"initially-visible": true,
@@ -3151,7 +3180,7 @@
 					"behaviors": {
 						"MuoviVerso": {
 							"properties": {
-								"max-speed": 3,
+								"max-speed": 30,
 								"acceleration": 600,
 								"deceleration": 600,
 								"rotate-speed": 0,
@@ -3162,7 +3191,7 @@
 						}
 					},
 					"world": {
-						"x": 81,
+						"x": -27,
 						"y": 63,
 						"width": 56,
 						"height": 50,
@@ -3299,10 +3328,10 @@
 						}
 					},
 					"world": {
-						"x": -23,
-						"y": 55,
+						"x": -27,
+						"y": 51,
 						"width": 31.5489950008673,
-						"height": 17.997973163492958,
+						"height": 18.33315290395211,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -3347,8 +3376,8 @@
 						"y": 192,
 						"width": 233.06722088081028,
 						"height": 198.92651462520942,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.49931224209078406,
+						"originY": 0.5748175182481752,
 						"color": [
 							1,
 							1,
