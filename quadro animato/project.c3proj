@@ -17,7 +17,7 @@
 		{
 			"type": "behavior",
 			"id": "Sin",
-			"name": "Seno",
+			"name": "Sine",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -25,7 +25,7 @@
 		{
 			"type": "behavior",
 			"id": "MoveTo",
-			"name": "Muovi verso",
+			"name": "Move To",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
