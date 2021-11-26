@@ -45,54 +45,11 @@
 					},
 					"uid": 3,
 					"instanceVariables": {},
-					"behaviors": {
-						"Solido": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 399,
-						"y": 559,
-						"width": 794,
-						"height": 34,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "rspwnAdvicer",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 13,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solido": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 475,
-						"y": 288,
-						"width": 137,
+						"x": 356,
+						"y": 603,
+						"width": 1312,
 						"height": 34,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -138,6 +95,35 @@
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "endddd",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": false,
+						"live-preview": false
+					},
+					"uid": 49,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -28,
+						"y": 38,
+						"width": 49,
+						"height": 40,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -672,9 +658,9 @@
 						}
 					},
 					"world": {
-						"x": 18,
+						"x": -11.204999999999998,
 						"y": 67,
-						"width": 37,
+						"width": 95.41,
 						"height": 18,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -852,8 +838,8 @@
 						}
 					},
 					"world": {
-						"x": 432,
-						"y": 245,
+						"x": 430,
+						"y": 268,
 						"width": 104,
 						"height": 141,
 						"originX": 0.5,
@@ -1004,8 +990,8 @@
 						}
 					},
 					"world": {
-						"x": 71,
-						"y": 440,
+						"x": 738,
+						"y": 371,
 						"width": 40,
 						"height": 40,
 						"originX": 0.5,

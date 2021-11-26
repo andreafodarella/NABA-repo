@@ -64,7 +64,10 @@
 			"terreno2",
 			"rspwnAdvicer",
 			"BAdvisor",
-			"poof"
+			"poof",
+			"enemy",
+			"bouncer",
+			"endddd"
 		],
 		"subfolders": []
 	},
@@ -78,7 +81,8 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Layout 1",
+			"Layout 2"
 		],
 		"subfolders": []
 	},

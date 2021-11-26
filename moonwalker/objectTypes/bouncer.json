@@ -1,16 +1,10 @@
 {
-	"name": "Y",
+	"name": "bouncer",
 	"plugin-id": "Sprite",
-	"sid": 624618166588273,
+	"sid": 437847257275733,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solido",
-			"sid": 326051635562627
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -24,26 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 830627,
-						"collisionPoly": {
-							"points": [
-								0.12400000000000007,
-								0.2280000000000001,
-								0.45599999999999996,
-								0.5760000000000003,
-								0.8439999999999999,
-								0.29200000000000004,
-								0.10399999999999932,
-								0.98,
-								0.3760000000000001,
-								0.6439999999999997
-							]
-						},
+						"imageSpriteId": 6528941,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 764416454171572,
+				"sid": 116816330694950,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

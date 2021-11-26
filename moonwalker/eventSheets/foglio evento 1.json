@@ -2,375 +2,617 @@
 	"name": "Foglio evento 1",
 	"events": [
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "general",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 972263997431623
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 991886999919692
+						}
+					],
+					"actions": [
+						{
+							"id": "stop-animation",
+							"objectClass": "poof",
+							"sid": 535404583251229
+						}
+					],
+					"sid": 953191859162509
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Tastiera",
+							"sid": 158591127979705,
+							"parameters": {
+								"key": 66
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "moonwlkr",
+							"sid": 743598637068869,
+							"parameters": {
+								"x": "56",
+								"y": "440"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "BAdvisor",
+							"sid": 467203962728102,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "victory",
+							"sid": 794906571841699,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "V",
+							"sid": 586824573957076,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "I",
+							"sid": 289578358484729,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "C",
+							"sid": 804845302857858,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "T",
+							"sid": 325861199766344,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "O",
+							"sid": 987306032687430,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "R",
+							"sid": 478002717055339,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Y",
+							"sid": 807451555324490,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "terreno",
+							"sid": 661248074978418,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "terreno",
+							"sid": 268629861836353,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "start-animation",
+							"objectClass": "poof",
+							"sid": 929477990058307,
+							"parameters": {
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 962165005719495
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "end",
+							"sid": 502777764233437,
+							"parameters": {
+								"object": "moonwlkr"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "victory",
+							"sid": 781656870802082,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "V",
+							"sid": 276866540177317,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "I",
+							"sid": 126327266348628,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "C",
+							"sid": 862705889294210,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "T",
+							"sid": 233205071860976,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "O",
+							"sid": 914995292013200,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "R",
+							"sid": 920222238855601,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Y",
+							"sid": 646354093104240,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "terreno",
+							"sid": 209859542919343,
+							"behaviorType": "Solido",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "terreno",
+							"sid": 299126258268570,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "endddd",
+							"sid": 488392284034168,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						}
+					],
+					"sid": 408734209728999
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "moonwlkr",
+							"sid": 868395399433200,
+							"parameters": {
+								"object": "endddd"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 173000943173495,
+							"parameters": {
+								"layout": "Layout 2"
+							}
+						}
+					],
+					"sid": 822168743034111
 				}
 			],
-			"actions": [
-				{
-					"id": "stop-animation",
-					"objectClass": "poof",
-					"sid": 107590190858176
-				}
-			],
-			"sid": 998658655817157
+			"sid": 166364502965939
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "moon",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "on-key-pressed",
-					"objectClass": "Tastiera",
-					"sid": 652846016339678,
-					"parameters": {
-						"key": 66
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Tastiera",
+							"sid": 654644871145376,
+							"parameters": {
+								"key": 37
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "moonwlkr",
+							"sid": 936059822801099,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 612047487153684
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Tastiera",
+							"sid": 290425190171306,
+							"parameters": {
+								"key": 39
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "moonwlkr",
+							"sid": 897589832104822,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 831982329100533
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "moonwlkr",
+							"sid": 860119729710878,
+							"behaviorType": "Piattaforme"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "moonwlkr",
+							"sid": 619919127145730,
+							"parameters": {
+								"animation": "\"run\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 951264134373788
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "moonwlkr",
+							"sid": 689055913952494,
+							"behaviorType": "Piattaforme",
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "moonwlkr",
+							"sid": 160504936139200,
+							"parameters": {
+								"animation": "\"idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 255329007969834
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "moonwlkr",
+							"sid": 263310521062823,
+							"parameters": {
+								"object": "rspwnAdvicer"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "typewriter-text",
+							"objectClass": "BAdvisor",
+							"sid": 271693696239858,
+							"parameters": {
+								"text": "\"PREMI B PER TORNARE ALLA PARTENZA\"",
+								"duration": "1.5"
+							}
+						}
+					],
+					"sid": 529304429845956
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-jumping",
+							"objectClass": "moonwlkr",
+							"sid": 772953144514368,
+							"behaviorType": "Piattaforme"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "moonwlkr",
+							"sid": 941899783105332,
+							"parameters": {
+								"animation": "\"jump\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 102742013213604
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-falling",
+							"objectClass": "moonwlkr",
+							"sid": 341905062478321,
+							"behaviorType": "Piattaforme"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "moonwlkr",
+							"sid": 549266288037397,
+							"parameters": {
+								"animation": "\"fall\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 248145590477379
 				}
 			],
-			"actions": [
-				{
-					"id": "set-position",
-					"objectClass": "moonwlkr",
-					"sid": 786343710475971,
-					"parameters": {
-						"x": "56",
-						"y": "440"
-					}
-				},
-				{
-					"id": "set-text",
-					"objectClass": "BAdvisor",
-					"sid": 883290085217432,
-					"parameters": {
-						"text": "\"\""
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "victory",
-					"sid": 336146385262105,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "V",
-					"sid": 449764823903957,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "disabled"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "I",
-					"sid": 409201150253732,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "disabled"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "C",
-					"sid": 683118015010579,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "disabled"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "T",
-					"sid": 613505779174948,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "disabled"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "O",
-					"sid": 324455076843938,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "disabled"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "R",
-					"sid": 511731425152391,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "disabled"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "Y",
-					"sid": 179779754870085,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "disabled"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "terreno",
-					"sid": 437520470120487,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "enabled"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "terreno",
-					"sid": 853708929498768,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
-					"id": "start-animation",
-					"objectClass": "poof",
-					"sid": 836625810006561,
-					"parameters": {
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 482955744380532
+			"sid": 503296391769733
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "enemies",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "is-moving",
-					"objectClass": "moonwlkr",
-					"sid": 979740385204037,
-					"behaviorType": "Piattaforme"
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "moonwlkr",
-					"sid": 138971907194628,
-					"parameters": {
-						"animation": "\"run\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 788378943705202
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Tastiera",
-					"sid": 391078120537764,
-					"parameters": {
-						"key": 37
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-mirrored",
-					"objectClass": "moonwlkr",
-					"sid": 377759549600870,
-					"parameters": {
-						"state": "not-mirrored"
-					}
-				}
-			],
-			"sid": 833198996321576
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Tastiera",
-					"sid": 513741124578025,
-					"parameters": {
-						"key": 39
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-mirrored",
-					"objectClass": "moonwlkr",
-					"sid": 434071295694909,
-					"parameters": {
-						"state": "mirrored"
-					}
-				}
-			],
-			"sid": 822186159555553
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-moving",
-					"objectClass": "moonwlkr",
-					"sid": 452631901776250,
-					"behaviorType": "Piattaforme",
-					"isInverted": true
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "moonwlkr",
-					"sid": 292099650212711,
-					"parameters": {
-						"animation": "\"idle\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 469700143936399
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "end",
-					"sid": 999048411370757,
-					"parameters": {
-						"object": "moonwlkr"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "victory",
-					"sid": 861044499530870,
-					"parameters": {
-						"visibility": "visible"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "enemy",
+							"sid": 101316236932769,
+							"parameters": {
+								"object": "bouncer"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "toggle-boolean-instvar",
+							"objectClass": "enemy",
+							"sid": 353510984994318,
+							"parameters": {
+								"instance-variable": "destra"
+							}
+						}
+					],
+					"sid": 321801634125974
 				},
 				{
-					"id": "set-enabled",
-					"objectClass": "V",
-					"sid": 697942011004805,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "enabled"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "enemy",
+							"sid": 687038617437276,
+							"parameters": {
+								"instance-variable": "destra"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "enemy",
+							"sid": 255002146830629,
+							"behaviorType": "Piattaforme",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "enemy",
+							"sid": 546272941908508,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 564200568776708
 				},
 				{
-					"id": "set-enabled",
-					"objectClass": "I",
-					"sid": 781745162882888,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "enabled"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 385117685337748
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "enemy",
+							"sid": 384561835650028,
+							"behaviorType": "Piattaforme",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "enemy",
+							"sid": 693845030689809,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 968105143236338
 				},
 				{
-					"id": "set-enabled",
-					"objectClass": "C",
-					"sid": 429303847292154,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "enabled"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "enemy",
+							"sid": 754135567430585,
+							"behaviorType": "Piattaforme"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "enemy",
+							"sid": 608285436800961,
+							"parameters": {
+								"animation": "\"run\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 693495739298155
 				},
 				{
-					"id": "set-enabled",
-					"objectClass": "T",
-					"sid": 291818087713639,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "enabled"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "O",
-					"sid": 844380832318850,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "enabled"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "R",
-					"sid": 864432017164684,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "enabled"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "Y",
-					"sid": 989456662581199,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "enabled"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "terreno",
-					"sid": 134861796495494,
-					"behaviorType": "Solido",
-					"parameters": {
-						"state": "disabled"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "terreno",
-					"sid": 713956169370866,
-					"parameters": {
-						"visibility": "invisible"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "enemy",
+							"sid": 805078806306828,
+							"behaviorType": "Piattaforme",
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "enemy",
+							"sid": 944991678583031,
+							"parameters": {
+								"animation": "\"idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 592490183202613
 				}
 			],
-			"sid": 124056978554589
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "moonwlkr",
-					"sid": 904323235831286,
-					"parameters": {
-						"object": "rspwnAdvicer"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "typewriter-text",
-					"objectClass": "BAdvisor",
-					"sid": 439781730717270,
-					"parameters": {
-						"text": "\"PREMI B PER TORNARE ALLA PARTENZA\"",
-						"duration": "1.5"
-					}
-				}
-			],
-			"sid": 502503889641821
+			"sid": 857313856076074
 		}
 	],
 	"sid": 648506944425211
